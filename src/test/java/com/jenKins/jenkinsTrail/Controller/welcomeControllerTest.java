@@ -10,7 +10,7 @@ class welcomeControllerTest {
     Logger logger = LoggerFactory.getLogger(welcomeControllerTest.class);
     @Test
     void welcomeMethod() {
-        assertEquals("davi","david","First Failed");
+        assertEquals("david","david","First Failed");
         logger.info("Testing started Da Pts");
     }
 }
