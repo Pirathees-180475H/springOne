@@ -13,4 +13,34 @@ class welcomeControllerTest {
         assertEquals("david","david","First Failed");
         logger.info("Testing started Da Pts");
     }
+    @Test
+    void welcomeMethod7() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }
+    @Test
+    void welcomeMethod6() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }
+    @Test
+    void welcomeMethod5() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }@Test
+    void welcomeMethod4() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }
+    @Test
+    void welcomeMethod3() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }
+    @Test
+    void welcomeMethod2() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }
+
 }
