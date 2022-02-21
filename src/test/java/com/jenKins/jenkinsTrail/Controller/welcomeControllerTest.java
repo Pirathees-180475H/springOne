@@ -42,5 +42,10 @@ class welcomeControllerTest {
         assertEquals("david","david","First Failed");
         logger.info("Testing started Da Pts");
     }
+    @Test
+    void welcomeMethod8() {
+        assertEquals("david","david","First Failed");
+        logger.info("Testing started Da Pts");
+    }
 
 }
