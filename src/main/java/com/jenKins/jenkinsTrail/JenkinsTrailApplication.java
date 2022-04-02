@@ -17,7 +17,7 @@ public class JenkinsTrailApplication extends SpringBootServletInitializer {
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(DemoApplication.class);
+		return application.sources(JenkinsTrailApplication.class);
 	}
 
 }
