@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class welcomeController {
     Logger logger = LoggerFactory.getLogger(welcomeController.class);
 
-    @RequestMapping(value = "/welcome",method = RequestMethod.GET)
+    @RequestMapping(value = "/",method = RequestMethod.GET)
     public String welcomeMethod(){
         return "Hello From jenkins Build";
     }
